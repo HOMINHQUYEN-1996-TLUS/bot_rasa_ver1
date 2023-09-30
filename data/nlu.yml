@@ -1,0 +1,99 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - xin chào
+    - hey bro
+    - hi
+    - ê
+    - chào bổi sáng
+    - cha buô tối
+    - sủa
+    - bố mày đang ở đây
+
+- intent: goodbye
+  examples: |
+    - bye
+    - biến đi chứ đợi đuổi
+    - gặp lại sau
+    - phắn đi mày
+    - bye
+    - goodbye
+    - gặp lại mày sau
+    - bye bye
+
+- intent: affirm
+  examples: |
+    - vâng
+    - y
+    - indeed
+    - dĩ nhiên
+    - nghe có vẻ tốt
+    - đúng rồi
+
+- intent: deny
+  examples: |
+    - đéo
+    - n
+    - never
+    - tao đéo nghĩ vậy
+    - t đéo thích
+    - đéo được
+    - đéo thực tế
+
+- intent: mood_great
+  examples: |
+    - tuyệt cà là vời
+    - tốt
+    - đéo tin được
+    - cảm giác như 1 vị vua
+    - tuyệt vời
+    - tao đang cảm thấy tuyệt vời
+    - tao đang rất ruyệt
+    - tao là một thứ đéo thể tin nổi
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - một ngày như con cặt
+    - tao ang buồn
+    - cảm thấy đéo ổn
+    - I am disappointed
+    - cực kỳ tệ
+    - I'm so sad
+    - sad
+    - ất buồn
+    - unhappy
+    - không ổn
+    - cực kỳ không ổn
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+- intent: ask_func_list
+  example: |
+    - bạn có thể làm được những gì
+    - bạn giúp được gì 
+    - chức năng của bạn là gì
+    - mày có thể làm gì
+    - sủa lên. m sủa được gì
+    - cho tao xem những gì mày có thể làm
+    - làm được gì thì sủa lên
+    - m làm gì
+    - m làm được gì
+    - m có thể làm gì
+- intent: thank
+  example: |
+    - cảm ơn
+    - chuẩn cmnr
+    - cảm ơn nhé
+    - cảm ơn nha
+    - thank
+    
